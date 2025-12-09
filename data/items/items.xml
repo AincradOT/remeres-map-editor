@@ -87975,15 +87975,4 @@
       <attribute key="damage" value="1000"/>
     </attribute>
   </item>
-  <!-- The below items were duplicated due to property changes on the official datapack -->
-  <item id="49825" article="a" name="large crystal teleporter">
-		<attribute key="type" value="teleport" />
-		<attribute key="description" value="You can see the other side through it." />
-		<attribute key="effect" value="teleport" />
-	</item>	
-  <item id="49826" article="a" name="boss gate">
-    <attribute key="type" value="teleport"/>
-    <attribute key="description" value="You can see the other side through it."/>
-    <attribute key="effect" value="teleport"/>
-  </item>
 </items>
