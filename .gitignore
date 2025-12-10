@@ -63,3 +63,5 @@ cmake-build-debug/
 *.lzma
 *.dat
 *.manifest
+!makefile
+RelWithDebInfo/

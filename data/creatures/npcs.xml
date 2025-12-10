@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <npcs>
+	<npc name="[Game] Dice" looktype="0" lookitem="2101" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
+	<npc name="[Game] Beat The Dealer" looktype="0" lookitem="2101" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
+	<npc name="[Game] Scratch Card Dealer" looktype="0" lookitem="2101" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
+	<npc name="[Game] Blackjack" looktype="0" lookitem="2101" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
+	<npc name="." looktype="0" lookitem="2101" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
+	<npc name="A Forgotten Soul" looktype="140" lookitem="0" lookaddon="0" lookhead="60" lookbody="22" looklegs="24" lookfeet="32" />
+	<npc name="Flintish" looktype="134" lookitem="0" lookaddon="0" lookhead="95" lookbody="57" looklegs="76" lookfeet="39" />
+	<npc name="Rashidish" looktype="146" lookitem="0" lookaddon="0" lookhead="100" lookbody="100" looklegs="119" lookfeet="115" />
+	<npc name="Nameless Dungeonkeeper" looktype="129" lookitem="0" lookaddon="0" lookhead="57" lookbody="113" looklegs="95" lookfeet="113" />
+	<npc name="Unknown Soul" looktype="1137" lookitem="0" lookaddon="0" lookhead="0" lookbody="87" looklegs="49" lookfeet="87" />
 	<npc name="..." looktype="294" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="A Bearded Woman" looktype="140" lookitem="0" lookaddon="0" lookhead="60" lookbody="22" looklegs="24" lookfeet="32" />
 	<npc name="A Beautiful Girl" looktype="140" lookitem="0" lookaddon="0" lookhead="77" lookbody="81" looklegs="79" lookfeet="95" />

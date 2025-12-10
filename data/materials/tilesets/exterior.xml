@@ -465,7 +465,19 @@
 			<item fromid="19600" toid="19603"/>
 			<item fromid="19791" toid="19798"/>
 			<item fromid="19885" toid="19898"/>
-			<item fromid="20031" toid="20044"/>
+			<item fromid="20031" toid="20032"/>
+			<!-- Missing assets: half-buried face items 20033, 20034 -->
+			<!-- <item fromid="20033" toid="20034"/> -->
+			<item fromid="20035" toid="20036"/>
+			<!-- Missing assets: half-buried face items 20037, 20038 -->
+			<!-- <item fromid="20037" toid="20038"/> -->
+			<item id="20039"/>
+			<!-- Missing assets: half-buried face item 20040 -->
+			<!-- <item id="20040"/> -->
+			<item id="20041"/>
+			<!-- Missing assets: half-buried face item 20042 -->
+			<!-- <item id="20042"/> -->
+			<item fromid="20043" toid="20044"/>
 			<item id="19824"/>
 			<item fromid="19899" toid="19917"/>
 			<item fromid="19932" toid="19933"/>

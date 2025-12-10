@@ -581,7 +581,10 @@
 			<item fromid="15079" toid="15084"/>
 			<item fromid="15221" toid="15266"/>
 			<item fromid="15269" toid="15272"/>
-			<item fromid="15356" toid="15392"/>
+			<item fromid="15356" toid="15389"/>
+			<!-- Missing assets: mossy wall items 15390-15391 -->
+			<!-- <item fromid="15390" toid="15391"/> -->
+			<item id="15392"/>
 			<item fromid="15420" toid="15453"/>
 			<item fromid="15719" toid="15725"/>
 			<item id="15727"/>

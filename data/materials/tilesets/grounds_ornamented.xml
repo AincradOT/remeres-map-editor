@@ -347,7 +347,10 @@
 			<item id="12158"/>
 			<item fromid="12059" toid="12066"/>
 			<item id="12068"/>
-			<item fromid="15290" toid="15301"/>
+			<item fromid="15290" toid="15292"/>
+			<!-- Missing assets: crystal wall items 15293-15295 -->
+			<!-- <item fromid="15293" toid="15295"/> -->
+			<item fromid="15296" toid="15301"/>
 			<item fromid="15846" toid="15850"/>
 			<item fromid="17978" toid="17980"/>
 			<item fromid="20374" toid="20379"/>

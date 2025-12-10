@@ -762,14 +762,29 @@ bool ItemDatabase::loadFromGameXml(const FileName &identifier, wxString &error, 
 		}
 
 		if (fromId == 0 || toId == 0) {
-			error = wxString::Format("Could not read item id from item node, fromid %d, toid %d.", fromId, toId);
-			return false;
+			wxString warning = wxString::Format("Could not read item id from item node, fromid %d, toid %d. Skipping.", fromId, toId);
+			warnings.push_back(warning);
+			spdlog::warn("[ItemDatabase::loadFromGameXml] {}", warning.ToStdString());
+			continue;
 		}
 
 		for (auto id = fromId; id <= toId; ++id) {
 			if (!loadItemFromGameXml(itemNode, id)) {
-				error = wxString::Format("Could not load item id %d. Item id not found.", id);
-				return false;
+				// Get item name from XML for better logging
+				std::string itemName = itemNode.attribute("name").as_string();
+				if (itemName.empty()) {
+					itemName = "<unnamed>";
+				}
+				
+				wxString warning = wxString::Format(
+					"Skipping item id %d (%s): Missing assets (sprite/appearance data not found in client files)",
+					id,
+					itemName.c_str()
+				);
+				warnings.push_back(warning);
+				spdlog::warn("[ItemDatabase::loadFromGameXml] {}", warning.ToStdString());
+				// Continue to next item instead of failing
+				continue;
 			}
 		}
 	}
