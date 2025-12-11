@@ -357,8 +357,9 @@
   <item article="a" name="wall" id="42735"/>
   <item article="a" name="wall" id="42736"/>
   <item article="a" name="wall" id="42737"/> -->
-  <item name="stone floor" id="42744"/>
-  <item name="stone floor" id="42745"/>
+  <!-- wrong stone tiles: 42744-42756 -->
+  <!-- <item name="stone floor" id="42744"/>
+  <item name="stone floor" id="42745"/> -->
   <item name="stone floor" id="42746"/>
   <item name="stone floor" id="42747"/>
   <item name="stone floor" id="42748"/>
